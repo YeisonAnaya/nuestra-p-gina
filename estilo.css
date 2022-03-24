@@ -1,0 +1,44 @@
+body{
+  background-color:#2f4e6f;
+  color:white;
+}
+.carro img {
+
+  width: 100%;
+  height: auto;
+
+}
+nav li{
+	display: inline-block; /*En un solo bloque*/
+	width:  150px;
+	height: 30px;
+	padding: 5px 10px;
+	background-color: #98b1c4;
+	border: 5px solid #fff;
+	text-align: center;
+	color:#fff;
+	position: relative;
+}
+
+.contenedor{
+	width: 80%;
+	max-width: 1000px;
+	margin: 0 auto;
+	overflow: hidden;
+
+}
+
+.editable{
+  overflow:auto;
+}
+
+
+
+
+
+
+
+
+
+
+
