@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>REGISTRATE</title>
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link rel="stylesheet icon" type="imagenes/css" href="imagenes/carros.png">
+
+</head>
+<body>
+	<div class="contenedor">
+        
+        <section class="main">
+
+	<div class="carro">
+   <img src="imagenes/ford1.jpg">
+</div>
+
+	
+	<nav>
+		<ul>
+    <li> <a href="inicio.html">Inicio</a> </li>    
+    <li> <a href="galeria.html"> Nuestra Galería</a> </li>    
+    <li> <a href="nosotros.html"> Sobre Nosotros</a> </li>    
+    <li> <a href="formulario.html"> Registrate</a> </li>
+</ul>
+	</nav>
+</section>
+
+	<section>
+		<h2>FORMULARIOS</h2>
+		<form action="Formularios.html" method="get">
+			<table border="7" align="center" bordercolor="lightblue">
+				<tr>
+					<th colspan="2">REGISTRO DE DATOS</th>
+				</tr>
+				<tr>
+					<th>NOMBRE</th>
+					<td><input type="text" name="nombre"  required></td>
+				</tr>
+				<tr>
+					<th>APELLIDO</th>
+					<td><input type="text" name="apellido"></td>
+				</tr>
+				<tr>
+					<th>LOGIN</th>
+					<td><input type="text" name="apellido"></td>
+				</tr>
+				<tr>
+					<th>PASSWORD</th>
+					<td><input type="password" name="password"></td>
+				</tr>
+				<tr>
+					<th>GÉNERO</th>
+					<td>
+						Masculino<input type="radio" name="sexo" value="M" checked>
+						Femenino<input type="radio" name="sexo" value="F">
+					</td>
+				</tr>
+				<tr>
+					<th>QUÉ TIPO DE CARRO LE GUSTA</th>
+					<td>
+						BMW<input type="checkbox" name="opcion" value="BMW">
+						Chevrolet<input type="checkbox" name="opcion" value="Chevrolet">
+						Ford<input type="checkbox" name="opcion" value="Ford">
+						Kia<input type="checkbox" name="opcion" value="Kia">
+						Mercedes-Benz<input type="checkbox" name="opcion" value="Mercedes-Benz">
+						Nissan<input type="checkbox" name="opcion" value="Nissan">
+						Suzuki<input type="checkbox" name="opcion" value="Suzuki">
+						Volkswagen<input type="checkbox" name="opcion" value="Volkswagen">
+					</td>
+				</tr>
+				<tr>
+					<th>IDIOMAS</th>
+					<td><select name="idioma">
+						<option value="árabe">Árabe</option>
+						<option value="español">Español</option>
+						<option value="francés">Francés</option>
+						<option value="ingles">Inglés</option>
+						<option value="mandarin">Mandarin</option>
+						<option value="portugues">Portugues</option>
+					</select></td>
+				</tr>
+				<tr>
+					<th>E-MAIL</th>
+					<td><input type="emal" name="correo" title="Escribe tu correo electrónico" placeholder="usuario@gmail.com" ></td>
+				</tr>
+				<tr>
+					<th>FECHA:</th>
+					<td><input type="Date" name="fecha"></td>
+				</tr>
+				<tr>
+					<th>COLOR FAVORITO</th>
+					<td><input type="color" name="color"></td>
+				</tr>
+				<tr>
+					<th>FECHA Y HORA DE NACIMIENTO:</th>
+					<td><input type="datetime-local" name="fecha_nacimiento"></td>
+				</tr>
+				<tr>
+				<tr>
+					<th>TELEFONO</th>
+					<td><input type="tel" name="celular"></td>
+				</tr>
+				<tr>
+					<th>BUSCAR</th>
+					<td><input type="search" name="buscar"></td>
+				</tr>
+				<tr>
+					<td><input type="submit" id="boton" value="Enviar"></td>
+					<td><input type="reset" id="boton" name="reestablecer" value="Reestablecer"></td>
+				</tr>
+			</table>
+		</form>
+	</section>
+	<aside></aside>
+	<footer></footer>
+</div>
+</body>
+</html>
